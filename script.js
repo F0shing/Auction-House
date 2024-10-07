@@ -1,4 +1,4 @@
-const API_KEY = 'bf6995d9-6236-4ddb-8874-dbcc514c64c2';
+const API_KEY = 'ENTER_YOUR_OWN_API_KEY';
 const BASE_URL = 'https://api.hypixel.net/skyblock/auctions';
 let currentPage = 1;
 const cardsPerPage = 24;
