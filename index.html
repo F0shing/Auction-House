@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Hypixel Skyblock Auction House</title>
+</head>
+
+<body>
+  <header>
+    <div class="filter">
+      <label for="filter">Filter:</label>
+      <select id="filter">
+        <option value="all">All</option>
+        <option value="bin">BIN Only</option>
+        <option value="auction">Auction</option>
+      </select>
+    </div>
+    <div class="search">
+      <label for="search">Search:</label>
+      <input type="text" id="search" placeholder="Search items...">
+      <button id="search-btn">Search</button>
+    </div>
+    <div>
+      <button id="prev">Previous</button>
+      <span class="page-info"></span>
+      <button id="next">Next</button>
+    </div>
+  </header>
+  <div class="card-container" id="card-container"></div>
+  <footer>
+    <div>
+      <button id="prev">Previous</button>
+      <span class="page-info"></span>
+      <button id="next">Next</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
